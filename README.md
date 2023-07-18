@@ -6,6 +6,12 @@ On the other hand, kubectl is a command-line tool that is part of the Kubernetes
 
 Both Rancher CLI and kubectl are essential tools for managing and operating containerized environments. While Rancher CLI focuses on Rancher-specific resources and operations, kubectl is designed for overall Kubernetes management. Together, they provide users with a seamless experience in managing container orchestration platforms.
 
+# How to use
+
+```bash
+$ docker run upstreamteam/rancher-cli2-kubectl:v2.7.0 help
+```
+
 # Build & Release
 
 ```bash
